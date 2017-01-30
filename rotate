@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8">
+		<title>Efeitos IN</title>
+		<style>
+			.imagemFundo{
+				position: relative;
+				width: 500px;
+				height: 350px;
+				background-image: url('brad.jpg');
+				background-size: 700px;
+				background-repeat: no-repeat;
+				background-position: center bottom -300px;
+				transition: 0.5s;
+			}
+			.imagemFundo:hover{
+				background-size: 900px;
+				transition: 0.5s;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="imagemFundo">
+		</div>
+	</body>
+</html>
+
